@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/6.0.0/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+
+<div class="container">
+  
+  <div class="content">
+  
+  <div class="content1">
+    <span><strong>$167</strong> still needed for this project</span>
+  </div>
+  
+  <progress id="progressBar" value="833" max="1000" class="earth" style="color:orange;"></progress>
+    <span id="status"></span>
+    <h1 id="finalMessage"></h1>
+   
+  <div class="content2">
+    <span><strong style="color:orange;">Only 3 days left</strong> to fund this project.</span>
+    <br/>
+    <br/>
+    <span>Join the <strong>42</strong> other donors who have already supported this project. Every dollar helps.</span>
+    <br/>
+    <br/>
+    
+    <div class="col" >
+      <input style="margin-top: 1px;" name="readonly" type="text" value="$50" readonly>
+    </div>
+    
+    <div class="col">      
+      <button style="float:right" class="btn contont" onClick="start(0);">Give Now</button>      
+    </div>
+    <br/>
+     <br/>
+    <a href="#" style="color:#3498DB;">Why give $50?</a>
+  </div>
+  <br/>
+  <button id="myBtn" class="botton" data-toggle="modal" data-target="#myModal">Save for later</button>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              
+              <div class="modal-body" style="text-align:center;">Saved!</div>           
+          </div>
+      </div>
+    </div>
+
+    <button type="button" class="botton" style="float:right" onclick="window.open('https://www.facebook.com/sharer.php?u=1.html');
+    window.open('https://twitter.com/share?url=URLENCODED&text=Yay, I donated!');" >Tell your friends</button>
+
+  </div>
+  
+  
+  </div>
+<script src="http://code.jquery.com/jquery.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="see.js" type="text/javascript" charset="utf-8" async defer></script>
+
+  </body>
+  
+ 
+  </html>
